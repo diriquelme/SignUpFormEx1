@@ -6,7 +6,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h3, p {
+h3, a {
     color: gray;
     font-style: italic;
 }
@@ -47,6 +47,13 @@ button {
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+span {
+    position: absolute;
+    color: gray;
+    right: 50px;
+    top: 235px;
 }
 
 @media (max-width: 800px) {
