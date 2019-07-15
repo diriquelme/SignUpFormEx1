@@ -6,7 +6,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h3, a {
+h3 {
     color: gray;
     font-style: italic;
 }
@@ -44,6 +44,7 @@ button {
     border: 1px solid #ddd;
     color: white;
     align-items: center;
+    font-size: 23px;
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -54,6 +55,15 @@ span {
     color: gray;
     right: 50px;
     top: 235px;
+}
+
+a {
+    color:gray;
+    text-decoration: none;
+}
+
+a, button {
+    cursor: pointer;
 }
 
 @media (max-width: 800px) {
