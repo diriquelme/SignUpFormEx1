@@ -11,6 +11,7 @@ body {
 	margin: 16px auto;
 	font-size: 16px;
 	margin-top: 115px;
+	box-shadow: 11px 14px 20px -10px rgba(145,140,145,0.61);
 }
 
 p.login-header {
